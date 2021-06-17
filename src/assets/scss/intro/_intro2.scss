@@ -1,0 +1,64 @@
+/* 06.02. Home Two Intro CSS */
+
+.intro-content-two {
+    max-width: 760px;
+    margin: 0 auto;
+    & .title {
+        font-size: 72px;
+        line-height: 1.2;
+        color: $white;
+        margin-bottom: 40px;
+    }
+
+    & .desc {
+        max-width: 700px;
+        margin: 0 auto;
+
+        & p {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.67;
+            color: $white;
+        }
+    }
+
+    & .btn {
+        margin: 0 5px;
+        margin-top: 60px;
+    }
+
+    @media #{$tablet-device,
+    $large-mobile
+    } {
+        & .title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        & .desc {
+            & p {
+                font-size: 16px;
+            }
+        }
+        & .btn {
+            margin-top: 30px;
+        }
+    }
+
+    @media #{$extra-small-mobile} {
+
+        & .title {
+            font-size: 30px;
+        }
+
+        & .desc {
+            & p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.ah-headline.rotate-3 i{
+    font-style: normal !important;
+}

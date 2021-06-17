@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "images/brand/client-logo-01.png"
+    },
+    {
+        "id": 2,
+        "image": "images/brand/client-logo-02.png"
+    },
+    {
+        "id": 3,
+        "image": "images/brand/client-logo-03.png"
+    },
+    {
+        "id": 4,
+        "image": "images/brand/client-logo-04.png"
+    },
+    {
+        "id": 5,
+        "image": "images/brand/client-logo-05.png"
+    },
+    {
+        "id": 6,
+        "image": "images/brand/client-logo-06.png"
+    }
+]

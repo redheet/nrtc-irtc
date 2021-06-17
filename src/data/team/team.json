@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "images/team/team-1.jpg",
+        "name": "Kasahara May",
+        "designation": "Project manager"
+    },
+    {
+        "id": 2,
+        "image": "images/team/team-2.jpg",
+        "name": "Dollie Horton",
+        "designation": "Marketing"
+    },
+    {
+        "id": 3,
+        "image": "images/team/team-3.jpg",
+        "name": "Maggie Strickland",
+        "designation": "Financial Services"
+    },
+    {
+        "id": 4,
+        "image": "images/team/team-4.jpg",
+        "name": "Monica Blews",
+        "designation": "Project manager"
+    }
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"id": "1",
+		"title": "National Research Teachers Competition",
+		"desc": "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
+		"backgroundImage": "/images/hero-image/hero-2.jpg"
+	},
+	{
+		"id": "2",
+		"title": "International Research Teachers Competition",
+		"desc": "We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.",
+		"backgroundImage": "/images/hero-image/hero-1.jpg"
+	}
+]

@@ -1,0 +1,96 @@
+/* 04.11 Team CSS */
+
+.team {
+    .thumb {
+        position: relative;
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: inherit;
+            padding: 30px;
+            opacity: 0;
+            visibility: hidden;
+            background-blend-mode: multiply;
+            background-size: cover;
+            background-color: $primary;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+        }
+        .social-icon {
+            position: absolute;
+            bottom: 33px;
+            left: 0;
+            padding: 0 30px;
+            font-size: 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-5px);
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            right: 0;
+            margin: 0 -15px;
+            li {
+                margin: 0;
+                display: inline-block;
+
+                a {
+                    transition: all .3s cubic-bezier(.645,.045,.355,1);
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #222;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    background: $white;
+                    margin: 7px;
+                    &:hover {
+                        background-color: $primary;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+    }
+    .team-info {
+        .info {
+            h5 {
+                font-size: 18px;
+                line-height: 1.388;
+                margin-bottom: 6px;
+            }
+            span {
+                font-weight: 500;
+                letter-spacing: 0em;
+                line-height: 1.58;
+                font-size: 14px;
+                color: $body-color;
+            }
+        }
+    }
+
+    &:hover {
+        .thumb {
+            img {}
+
+            .overlay {
+                opacity: 0.5;
+                visibility: visible;
+            }
+
+            .social-icon {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+                
+            }
+
+        }
+    }
+}

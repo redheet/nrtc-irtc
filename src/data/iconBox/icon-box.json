@@ -1,0 +1,18 @@
+[
+	{
+		"id": "1",
+		"icon": "images/svg/linea/linea-basic-world.svg",
+		"title": "Sustainability Development",
+		"desc": "Sustainability is the capacity to endure in a relatively ongoing way across various domains of life.",
+		"pageLink": "Learn More",
+		"link": "service"
+	},
+	{
+		"id": "2",
+		"icon": "images/svg/linea/linea-basic-elaboration-folder-plus.svg",
+		"title": "Others",
+		"desc": "You can register with another categoriate you have.",
+		"pageLink": "Learn More",
+		"link": "service"
+	}
+]

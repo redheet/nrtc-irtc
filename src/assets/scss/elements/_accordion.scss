@@ -1,0 +1,135 @@
+/* 04.01 Accordion CSS */
+
+.faq-section{
+    padding-bottom: 120px;
+    // Responsive
+    @media #{$tablet-device}{
+        padding-bottom: 280px;
+    }
+    @media #{$large-mobile}{
+        padding-bottom: 260px;
+    }
+}
+
+
+.agency-accordion{
+    .accordion-item{
+        border: 1px solid #e7e7e7;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        transition: all .3s cubic-bezier(.645,.045,.355,1);
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .accordion-title{
+            color: $heading-color;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 0;
+            font-weight: 400;
+            border: 0 none;
+            -webkit-appearance: none;
+            display: block;
+            background: $white;
+            border: 1px solid #eee;
+            border-bottom: 0;
+            padding: 20px 26px;
+            margin: -1px -1px 0;
+            position: relative;
+            border-radius: 5px;
+            &.active{
+                .opened{
+                    display: block !important;
+                }
+                .closed{
+                    display: none;
+                }
+            }
+            .icon{
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+                &.opened{
+                    display: none;
+                }
+            }
+        }
+        .accordion-content{
+            background-color: $white;
+            padding: 10px 25px 39px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            line-height: 1.74;
+            font-size: 15px;
+            font-family: $body-font;
+            border: 0 none;
+            box-shadow: 0 20px 40px rgba(0,0,0,.07);
+            -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+            border-radius: 0 0 5px 5px;
+            display: none;
+        }
+    }
+}
+
+.faq-image-area{
+    position: relative;
+    z-index: 9;
+    height: 100%;
+    margin-right: 0 !important;
+
+    & .shape {
+        position: absolute;
+        z-index: 1;
+
+        &-1 {
+            top: auto;
+            bottom: 145px !important;
+            right: -128px !important;
+            z-index: -1;
+        }
+    }
+
+    // Responsive
+    @media #{$laptop-device}{
+        & .shape {
+    
+            &-1 {
+                top: auto;
+                bottom: 145px !important;
+                right: 0px !important;
+            }
+        }
+    }
+    @media #{$desktop-device}{
+        & .shape {
+    
+            &-1 {
+                top: auto;
+                bottom: 145px !important;
+                right: 0px !important;
+            }
+        }
+    }
+    @media #{$tablet-device}{
+        & .shape {
+    
+            &-1 {
+                top: auto;
+                bottom: 145px !important;
+                right: 0px !important;
+            }
+        }
+    }
+    @media #{$large-mobile}{
+        & .shape {
+    
+            &-1 {
+                top: auto;
+                bottom: 145px !important;
+                right: 0px !important;
+            }
+        }
+    }
+}
