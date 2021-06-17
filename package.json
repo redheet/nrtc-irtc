@@ -1,0 +1,67 @@
+{
+  "name": "nrtcandirtc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.5.3",
+    "disqus-react": "^1.0.11",
+    "imagesloaded": "^4.1.4",
+    "isotope-layout": "^3.0.6",
+    "node-sass": "^4.14.1",
+    "parallax-js": "^3.1.0",
+    "react": "^17.0.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.14.2",
+    "react-isotope": "^1.0.7",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-modal-video": "^1.2.6",
+    "react-parallax-tilt": "^1.4.89",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-typed": "^1.2.0",
+    "react-visibility-sensor": "^5.1.1",
+    "react-vivus": "0.0.2",
+    "react-youtube-background": "^1.0.0",
+    "reactstrap": "^8.9.0",
+    "swiper": "^6.4.5",
+    "vivus": "^0.4.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "set PORT=3008 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ignore-path .gitignore . --ext js --ext jsx",
+    "lint:fix": "npm run lint --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.3.1"
+  }
+}
